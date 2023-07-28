@@ -108,6 +108,7 @@ font-style: normal;
 font-weight: 900;
 line-height: 92%; /* 115px */
 letter-spacing: -6.25px;
+margin-bottom: 0;
 }
 
 
@@ -186,9 +187,9 @@ letter-spacing: 0.462px;
 }
 .section-title{
     margin-bottom: 33px;
-    margin-top: 33px;
+    padding-top: 33px;
 }
-.section-title h1{
+.section-title h1,.section-title h2{
     color:var(--main-theme-color);
 text-align: center;
 font-family: var(--font-family);
@@ -257,4 +258,19 @@ gap: 42px 0;
 
 .faq-box{
     padding-top: 8px;
+    padding-bottom: 35px;
+}
+
+.testimonials{
+    background: linear-gradient(180deg, #1C517E 0%, #1D3274 100%);
+}
+.testimonials .section-title{
+    margin: 0;
+    padding-top:0 ;
+}
+.testimonials .section-title.text-center h2{
+    color: var(--white-color);
+}
+.testimonials .section-title.text-center p{
+    color: var(--white-color);
 }
