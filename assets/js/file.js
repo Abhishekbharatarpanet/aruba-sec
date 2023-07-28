@@ -5,4 +5,13 @@ $( document ).ready(function() {
         
     });
 
+
+    $('.payments-slider').slick({
+        infinite: true,
+        slidesToShow: 7,
+        slidesToScroll: 7,
+        margin:10,
+      });
+              
+
 });

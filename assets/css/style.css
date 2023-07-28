@@ -274,3 +274,35 @@ gap: 42px 0;
 .testimonials .section-title.text-center p{
     color: var(--white-color);
 }
+
+.payments-slider{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.payments-slider .slick-arrow{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: transparent;
+    position: relative;
+    border: transparent 1px solid;
+}
+.payments-slider .slick-arrow.slick-prev::after{
+    content: '';
+    background: url(../images/icons/prev.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    position: absolute;
+}
+.payments-slider .slick-arrow.slick-next::after{
+    content: '';
+    background: url(../images/icons/prev.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    position: absolute;
+}
