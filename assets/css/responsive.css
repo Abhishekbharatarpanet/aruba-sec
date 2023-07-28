@@ -1,3 +1,12 @@
+
+@media(min-width:1181px){
+    .dropdown-img{
+        display: none;
+    }
+    .has-childs:hover .hovered-child{
+        display: block;
+    }
+}
 @media (max-width: 1180px) {
     /* Place your custom CSS code here */
     .navbar{
@@ -27,6 +36,9 @@
         width: 100%;
         padding-bottom: 50px;
     }
+    .show .navbar-nav li.nav-item{
+        position: relative;
+    }
     .show .navbar-nav li.nav-item::after{
         content: '';
         height: 1px;
@@ -35,15 +47,66 @@
         background-color: var(--main-theme-color);
         left: -15px;
         position: absolute;
+        bottom: 0;
     }
     .collapsing{
         transition: .5s;
     }
+    .hovered-child{
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
 
     .has-childs{
-        pointer-events: none;
+        /* pointer-events: none; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .hovered-child{
+        width: 100%;
     }
     .navbar-bg .navbar-nav li a{
         line-height: 34px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        position: relative;
+    }
+    .dropdown-toggle::after{
+      display:none;
+    }
+    .dropdown-img{
+        width: 20px;
+        height: 20px;
+        display: block;
+        cursor: pointer;
+        z-index: 999;
+    }
+    .has-childs a{
+        width: 90%;
+    }
+    .has-childs img{
+        margin-left: auto;
+    }
+    .hovered-child{
+        border: none;
+    }
+    .hovered-child .dropdown-item {
+        position: relative;
+    }
+    .hovered-child .dropdown-item::after {
+        content: '';
+        height: 1px;
+        width: 100%;
+        display: block;
+        background-color: var(--main-theme-color);
+        left: 0px;
+        position: absolute;
+        bottom: 0;
+    }
+    .hovered-child .dropdown-item:last-child::after{
+        display: none;
     }
   }
