@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --main-theme-color:#1D3274;
+    --100-present:100%;
+    --white-color:#FFFFFF;
+    --para-color:#000000;
+    --font-family:'Montserrat', sans-serif;
+    --transparent:transparent;
+
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover,a:focus,a:visited,a:active{
+    color:var(--main-theme-color);
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: var(--transparent);
+}
+.container{
+    max-width: 1420px;
+}
+.head-top{
+    width: --100-present;
+    background-color: var(--main-theme-color);
+}
+
+a.navbar-brand img{
+    width: 130px;
+    height: 130px;
+}
+
+.navbar-bg{
+    background-color: var(--white-color) !important;
+}
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-bg .navbar-nav li a{
+    color:var(--para-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: -0.32px;
+    text-transform: capitalize;
+    font-family: var(--font-family);
+}
+.top_contact li{
+    list-style: none;
+}
+.top_contact li img{
+    margin-right: 10px;
+}
+
+.top_contact li a{
+    color:var(--white-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.32px;
+    text-transform: lowercase;
+}
+
+.flex-grow-0{
+    flex-grow: 0;
+}
+
+.has-childs:hover .hovered-child{
+    display: block;
+}
+
+.cate-banner{
+    background-image: linear-gradient(#00000071,#0000005b),url(../images/cate-banner-demo.png);
+    height: 513px;
+    background-position: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text h1{
+    color: #FFF;
+font-family: var(--font-family);
+font-size: 125px;
+font-style: normal;
+font-weight: 900;
+line-height: 92%; /* 115px */
+letter-spacing: -6.25px;
+}
+

@@ -1,0 +1,49 @@
+@media (max-width: 1180px) {
+    /* Place your custom CSS code here */
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar-expand-lg .navbar-toggler{
+        display: block;
+    }
+    .navbar-nav {
+      display: none;
+    }
+  
+    .navbar-toggler {
+      display: block;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar>.container{
+        flex-wrap: wrap;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        width: 100%;
+    }
+    .show .navbar-nav{
+        display: block !important;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .show .navbar-nav li.nav-item::after{
+        content: '';
+        height: 1px;
+        width: 138%;
+        display: block;
+        background-color: var(--main-theme-color);
+        left: -15px;
+        position: absolute;
+    }
+    .collapsing{
+        transition: .5s;
+    }
+
+    .has-childs{
+        pointer-events: none;
+    }
+    .navbar-bg .navbar-nav li a{
+        line-height: 34px;
+    }
+  }
