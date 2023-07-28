@@ -3,6 +3,20 @@
     .dropdown-img{
         display: none;
     }
+    .nav-link.dropdown-toggle::after{
+       border: none;
+       background: url(../images/drop-down-arrow.png);
+       background-repeat: no-repeat;
+       background-size: 20px;
+       width: 13px;
+       height: 15px;
+       background-position: center;
+       position: absolute;
+       transition: .5s;
+    }
+    .has-childs:hover .nav-link.dropdown-toggle::after{
+     rotate: 180deg;
+    }
     .has-childs:hover .hovered-child{
         display: block;
     }
@@ -109,4 +123,11 @@
     .hovered-child .dropdown-item:last-child::after{
         display: none;
     }
+    .head-top{
+        display: none;
+    }
+    .row{
+        margin-right: 15px;
+        margin-left: 15px;   
+       }
   }
