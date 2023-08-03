@@ -475,4 +475,30 @@ text-transform: capitalize;
     content: '';
     background-color: #F15A22;
 }
+
+.center-and-border{
+    text-align: center;
+    border-right: 1px solid;
+}
+.center-and-border:last-child{
+    border: none;
+}
+.explore-inner-box img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.tours-detail{
+    max-width: 350px;
+}
+.tours-detail .book-btn a{
+    width: fit-content;
+    padding: 0 15px;
+}
+.tours-section .container div.row.align-items-center:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.explore-world{
+    padding-bottom: 50px;
+}
 /* home page end */
