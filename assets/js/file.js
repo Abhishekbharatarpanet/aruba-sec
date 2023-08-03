@@ -15,8 +15,8 @@ $( document ).ready(function() {
       });
 
 
-      $('.payments-slider .slick-prev').html("<img src='/assets/images/icons/prev.svg'>")
-      $('.payments-slider .slick-next').html("<img src='/assets/images/icons/next.svg'>")
+      $('.payments-slider .slick-prev').html("<img src='assets/images/icons/prev.svg'>")
+      $('.payments-slider .slick-next').html("<img src='assets/images/icons/next.svg'>")
       
 
 });
