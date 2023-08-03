@@ -386,3 +386,93 @@ line-height: 107%; /* 24.61px */
     line-height: 102%; /* 12.24px */
     letter-spacing: 0.24px;
 }
+
+/* home page start */
+.home-banner{
+    background-image: url('../images/home-banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0;
+}
+.home-banner .home-heading h1{
+    background: linear-gradient(90deg, #162468 0%, #4382BA 65.63%, #4D87BA 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: var(--font-family);
+font-size: 120px;
+font-style: normal;
+font-weight: 900;
+line-height: 100%; 
+letter-spacing: -6px;
+}
+.home-banner .home-heading p{
+width: 50%;
+color: #393939;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; 
+}
+
+.home-banner .right-navigation .banner-nav li{
+    text-align: end;
+    padding-right: 20px;
+    position: relative;
+}
+.home-banner .right-navigation .banner-nav li a{
+color: #4D4D4D;
+text-align: right;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 333.333% */
+letter-spacing: -0.3px;
+text-transform: capitalize;
+}
+.home-banner .right-navigation .banner-nav li::after{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-8px);
+    width: 14px;
+    height: 13px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(1)::after{
+    content: '';
+    background-color: #1D79D5;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(2)::after{
+    content: '';
+    background-color: #FF3161;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(3)::after{
+    content: '';
+    background-color: #24D477;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(4)::after{
+    content: '';
+    background-color: #F9B13E;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(5)::after{
+    content: '';
+    background-color: #B459DF;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(6)::after{
+    content: '';
+    background-color: #FFCC00;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(7)::after{
+    content: '';
+    background-color: #00ABBD;
+}
+.home-banner .right-navigation .banner-nav li:nth-child(8)::after{
+    content: '';
+    background-color: #F15A22;
+}
+/* home page end */
