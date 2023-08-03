@@ -8,10 +8,15 @@ $( document ).ready(function() {
 
     $('.payments-slider').slick({
         infinite: true,
-        slidesToShow: 7,
-        slidesToScroll: 7,
+        slidesToShow: 5,
+        slidesToScroll: 5,
         margin:10,
+        arrows:true,
       });
-              
+
+
+      $('.payments-slider .slick-prev').html("<img src='/assets/images/icons/prev.svg'>")
+      $('.payments-slider .slick-next').html("<img src='/assets/images/icons/next.svg'>")
+      
 
 });
