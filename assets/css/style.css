@@ -337,7 +337,7 @@ gap: 42px 0;
 content:'';
 width:80px;
 height:50px;
-background: #F8F8F8;
+background: var(--white-color);
 background-image:url('../images/icons/email.svg');
 position:relative;
 display:inline-block;
