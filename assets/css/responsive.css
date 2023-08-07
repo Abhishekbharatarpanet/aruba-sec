@@ -131,3 +131,9 @@
         margin-left: 15px;   
        }
   }
+
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+        position: relative;
+    }
+  }
