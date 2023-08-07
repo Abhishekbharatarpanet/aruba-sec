@@ -514,4 +514,30 @@ height: 50px;
 border-radius: 8px;
 font-size: 16px;
 }
+.advanture-text-box h2{
+    font-size: 22px;
+    line-height: 33px;
+}
+.advanture-text-box p{
+    font-size: 16px;
+    color: #82828A;
+}
+.icon-box .inner-text h4{
+    font-size: 20px;
+    line-height: 33px;
+}
+.icon-box .inner-text p, .icon-box .inner-text p a{
+    font-size: 16px;
+    color: #82828A;
+}
+.icon-box .fa-solid{
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.icon-box .d-flex:hover     .fa-solid{
+    background-color: var(--orange);
+  color: var(--white-color);
+}
 /* home page end */
