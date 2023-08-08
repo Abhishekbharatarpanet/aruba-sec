@@ -168,7 +168,7 @@ text-align: center;
     height: 20px;
 }
 .tours-icons .icons h4{
-    color: var(--para-color);
+color: var(--para-color);
 font-family: var(--font-family-poppins);
 font-size: 16px;
 font-style: normal;
@@ -514,9 +514,17 @@ height: 50px;
 border-radius: 8px;
 font-size: 16px;
 }
+
+.advanture{
+    padding: 50px 0;
+}
+.advanture-text-box{
+    margin-top: 50px;
+}
 .advanture-text-box h2{
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 45px;
+    line-height: normal;
+    font-family: var(--font-family-poppins);
 }
 .advanture-text-box p{
     font-size: 16px;
@@ -541,4 +549,36 @@ font-size: 16px;
     background-color: var(--orange);
   color: var(--white-color);
 }
+
+
+.card{
+    width: 80%;
+    margin: auto;
+    padding:15px;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.icon .fa-solid{
+    font-size: 50px;
+    color: var(--orange);
+    background-color: var(--faq-border);
+    margin-bottom: 40px;
+    padding: 20px 18px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border-radius: 50%;
+}
+.marging-manager{
+    margin-top: 50px;
+}
+
+.gaping{
+    margin-bottom: 50px;
+}
+/* .left-box-outer{
+    background: url(../images/bg-shape-left.png), lightgray 50% / cover no-repeat;
+    mix-blend-mode: multiply;
+} */
 /* home page end */

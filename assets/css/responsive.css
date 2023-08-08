@@ -132,7 +132,7 @@
        }
   }
 
-  @media (min-width: 992px){
+  @media (max-width: 1180px){
     .navbar-expand-lg .navbar-nav .dropdown-menu{
         position: relative;
     }
