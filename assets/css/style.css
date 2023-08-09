@@ -707,3 +707,134 @@ padding: 25px 0 17px 0;
     height: 50px;
     background-color: var(--orange) !important;
 }
+
+.single-page-banner img{
+    width: 100%;
+}
+/* home ends here */
+
+
+/* singlepage  */
+
+.tour-info .left-box p{
+    color: var(--para-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tour-info .left-box h5{
+    color: var(--main-theme-color);
+    font-family: var(--font-family);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.3px;
+}
+.tour-info .tour-price p{
+    color: var(--para-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tour-info .tour-price h5{
+    color: var(--main-theme-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tour-book-btn
+.book-btn{
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 50px;
+    border: 2px solid var(--main-theme-color);
+    color: var(--main-theme-color);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+
+.custom-row-col{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   
+}
+.tour-info{
+    padding: 50px 0 23px 0;
+}
+.custom-row-col .flex-boxes{
+    width: 20%;
+    border-right: 1px solid #BCBCBC;
+
+}
+
+.custom-row-col .flex-boxes .inside-flex-box{
+    width: fit-content;
+    margin: auto;
+}
+.custom-row-col .flex-boxes:first-child .inside-flex-box{
+    margin: 0;
+}
+.custom-row-col .flex-boxes .inside-flex-box h5{
+    color: var(--para-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.custom-row-col .flex-boxes .inside-flex-box p{
+    color: var(--main-theme-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-product{
+background-color: #fcfcfc;
+}
+.about-product img{
+   width: 100%;
+}
+
+.margin-manage-top{
+    margin-top: -150px;
+    width: 80%;
+    z-index: 999;
+    position: relative;
+    background-color: var(--white-color);
+}
+
+#myTabContent{
+    border: 2px solid var(--main-theme-color);
+    margin-top: -1px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: var(--main-theme-color);
+    color: var(--white-color);
+}
+
+#myTab{
+    border: none;
+}
+.nav-tabs .nav-link{
+    border-radius: unset;
+}
