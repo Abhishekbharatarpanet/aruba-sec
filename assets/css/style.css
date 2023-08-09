@@ -774,14 +774,27 @@ padding: 25px 0 17px 0;
    
 }
 .tour-info{
-    padding: 50px 0 23px 0;
+    padding: 50px 0 50px 0;
 }
+footer p,footer p a{
+    color: var(--white-color) !important;
+font-family: var(--font-family-poppins);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
 .custom-row-col .flex-boxes{
     width: 20%;
     border-right: 1px solid #BCBCBC;
 
 }
-
+.custom-row-col .flex-boxes:last-child{
+    border-right: none;
+}
 .custom-row-col .flex-boxes .inside-flex-box{
     width: fit-content;
     margin: auto;
@@ -809,22 +822,29 @@ padding: 25px 0 17px 0;
 
 .about-product{
 background-color: #fcfcfc;
+padding-bottom: 50px;
 }
 .about-product img{
    width: 100%;
 }
 
 .margin-manage-top{
-    margin-top: -150px;
+    margin-top: -200px;
     width: 80%;
     z-index: 999;
     position: relative;
     background-color: var(--white-color);
+    padding-bottom: 50px;
+}
+.nav-tabs .nav-link{
+    color: var(--main-theme-color);
+    font-weight: 600;
 }
 
 #myTabContent{
     border: 2px solid var(--main-theme-color);
-    margin-top: -1px;
+    width: 90%;
+    margin:auto;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
@@ -837,4 +857,74 @@ background-color: #fcfcfc;
 }
 .nav-tabs .nav-link{
     border-radius: unset;
+    border: none;
+}
+.tab-content>.active{
+    padding: 28px 50px 34px 50px;
+}
+.tab-content>.active p:last-child{
+    margin-bottom: 0;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    isolation:unset;
+    border-color:unset;
+}
+.nav-item{
+    border-width:0;
+}
+
+.tab-content>.active h4{
+    color: var(--para-color);
+    font-family:var(--font-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97%; /* 29.1px */
+    padding-bottom: 17px;
+}
+
+.includes{
+    background: linear-gradient(180deg, #1C517E 0%, #1E3577 100%);
+    padding-bottom: 50px;
+}
+.includes div.row{
+    gap: 50px 0;
+}
+.includes .section-title h2{
+color: var(--white-color);
+}
+.includes .section-title p{
+color: var(--white-color);
+}
+
+.box-includes{
+    background-color: var(--white-color);
+    padding: 15px 0 15px 15px;
+    align-items: center;
+}
+.box-includes img{
+    width: 68px;
+    height: 68px;
+    margin-right: 20px;
+}
+.box-includes .text-box h6{
+    color: var(--main-theme-color);
+font-family: var(--font-family);
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin: 0;
+}
+.box-includes .text-box p{
+    color: var(--main-theme-color);
+font-family: var(--font-family);
+font-size: 17.86px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.536px;
+text-transform: capitalize;
+margin: 0;
 }
