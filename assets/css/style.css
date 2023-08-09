@@ -265,6 +265,7 @@ gap: 42px 0;
 
 .testimonials{
     background: linear-gradient(180deg, #1C517E 0%, #1D3274 100%);
+    padding-bottom: 50px;
 }
 .testimonials .section-title{
     margin: 0;
@@ -275,6 +276,7 @@ gap: 42px 0;
 }
 .testimonials .section-title.text-center p{
     color: var(--white-color);
+    padding-bottom: 31px;
 }
 
 .payments-slider-box{
@@ -320,9 +322,10 @@ gap: 42px 0;
     gap:10px;
     /* padding:0 10px; */
     align-items:center;
+    width: 45%;
 }
 .news-latter-box form input[type='email']{
-    min-width:400px;
+    width: 100%;
     background:transparent;
     border:none;
     outline:none;
@@ -587,7 +590,7 @@ font-size: 16px;
 .about-us-left{
     width: 90%;
     margin-left: auto;
-    padding-right: 50px;
+    padding-right: 100px;
 
 }
 .about-us-left h5{
@@ -631,7 +634,7 @@ font-size: 16px;
     /* padding: 50px 0; */
 }
 .about-us-right{
-    padding-left: 50px;
+    padding-left: 100px;
 }
 .about-us-right li img{
     width: 40px;
@@ -643,18 +646,64 @@ font-size: 16px;
     padding: 15px 0;
     color: var(--white-color);
 }
-
+.about-us{
+    position: relative;
+}
 .about-us::after{
     content: '';
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    z-index: 9999;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
+    position: absolute;
+    left:50%;
+    top: 35%;
+    transform: translateX(-69px);
 }
-/* .left-box-outer{
-    background: url(../images/bg-shape-left.png), lightgray 50% / cover no-repeat;
-    mix-blend-mode: multiply;
-} */
-/* home page end */
+
+.explorewordyourelbox{
+ padding: 30px;
+ text-align: center;
+}
+.explorewordyourelbox > div{
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
+    padding: 10px 20px;
+}
+.explorewordyourelbox > div img{
+width: 60px;
+height: 70px;
+object-fit: contain;
+
+}
+
+.explorewordyourelbox > div h6{
+color:var(--para-color) ;
+font-family: var(--font-family);
+font-size: 22px;
+font-weight: 700;
+line-height: 34px; /* 154.545% */
+text-transform: capitalize;
+padding: 25px 0 17px 0;
+}
+
+
+.explorewordyourelbox > div p{
+    color: #595959;
+    text-align: center;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.282px; /* 126.763% */
+    letter-spacing: 0.48px;
+}
+
+.ButtonBase__Overlay-sc-p43e7i-4.jUXzLe{
+    height: 50px;
+    background-color: var(--orange) !important;
+}
