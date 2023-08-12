@@ -3,6 +3,14 @@
     .dropdown-img{
         display: none;
     }
+        
+    .payments-slider .slick-prev{
+        left: -70px;
+    }
+    .payments-slider .slick-next{
+        right: -70px;
+    }
+
     .nav-link.dropdown-toggle::after{
        border: none;
        background: url(../images/drop-down-arrow.png);
@@ -20,9 +28,48 @@
     .has-childs:hover .hovered-child{
         display: block;
     }
+    .container{
+        max-width: 85% !important;
+    }
+    .home-banner{
+        background-size: 55%;
+        background-repeat: no-repeat;
+        background-position: 310px center;
+        padding: 100px 0;
+    }
+    .left-shape-bg{
+        width: 55%;
+        padding-left:8.3%;
+    }
+    .right-shape-bg{
+        width: 45%;
+    }
+}
+
+@media (min-width:993px) and (max-width: 1180px) {
+    .col-sm-6 , .col-sm-12{
+        width: 33.3%;   
+       }
+       .center-and-border{
+        border-right: none;
+       }
+       .row{
+        gap: 50px 0;
+       }
+}
+@media (min-width:575px) and (max-width: 992px) {
+    .col-sm-6 , .col-sm-12{
+     width: 50%;   
+    }
+    .center-and-border:nth-child(2){
+        border-right: none;
+    }
+    .row{
+        gap: 50px 0;
+       }
 }
 @media (max-width: 1180px) {
-    /* Place your custom CSS code here */
+
     .navbar{
         overflow: hidden;
     }
@@ -130,10 +177,30 @@
         margin-right: 15px;
         margin-left: 15px;   
        }
-  }
 
+   
+  }
+  @media (max-width: 768px){
+    .news-latter-box form{
+        width: 90%;
+    }
+    .footer_Float{
+        padding: 0;
+    }
+    .row{
+    gap: 50px 0px;
+    }
+  }
   @media (max-width: 1180px){
     .navbar-expand-lg .navbar-nav .dropdown-menu{
         position: relative;
+    }
+    .advanture div.container .row .col-md-5.col-sm-12,.advanture div.container .row .col-md-7.col-sm-12{
+        width: 100%;
+    }
+  }
+  @media (max-width:575px){
+    .center-and-border{
+        border: none;
     }
   }
