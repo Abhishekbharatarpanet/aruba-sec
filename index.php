@@ -15,14 +15,14 @@
         <div class="col-sm-6 col-md-6 col-sm-12">
             <div class="right-navigation">
                 <ul class="banner-nav">
-                    <li><a href="#">ARUBA ATV TOURS</a></li>
-                    <li><a href="#">ARUBA UTV TOURS</a></li>
-                    <li><a href="#">ARUBA JEEP TOURS (PRIVATE)</a></li>
-                    <li><a href="#">ARUBA BOAT TOURS</a></li>
-                    <li><a href="#">ARUBA PRIVATE CATAMARAN TOURS</a></li>
-                    <li><a href="#">ARUBA JETSKI TOURS</a></li>
-                    <li><a href="#">ARUBA OUTBACK SAFARI</a></li>
-                    <li><a href="#">ARUBA OUTBACK JEEP TOURS</a></li>
+                    <li><a href="atv-tours.php">ARUBA ATV TOURS</a></li>
+                    <li><a href="utv-tours.php">ARUBA UTV TOURS</a></li>
+                    <li><a href="aruba-private-ac-jeep-tours.php">ARUBA JEEP TOURS (PRIVATE)</a></li>
+                    <li><a href="aruba-private-boats-tours.php">ARUBA BOAT TOURS</a></li>
+                    <li><a href="aruba-private-catamaran-tours.php">ARUBA PRIVATE CATAMARAN TOURS</a></li>
+                    <li><a href="aruba-jet-ski-rentals.php">ARUBA JETSKI TOURS</a></li>
+                    <li><a href="aruba-private-open-air-safari-jeep-tours.php">ARUBA OUTBACK SAFARI</a></li>
+                    <li><a href="aruba-outback-safari-jeeptours.php">ARUBA OUTBACK JEEP TOURS</a></li>
                 </ul>
             </div>
         </div>
@@ -48,19 +48,22 @@
                 </div>
            
                 <div class="explore-inner-box">
-                    <img src="assets/images/ship.png" alt="">
+                    <img class="nothover" src="assets/images/ship.png" alt="">
+                    <img class="onhover" src="assets/images/orange-ship.png" alt="">
                     <h5>CRUISE SHIP TRAVEL</h5>
                 </div>
          
           
                 <div class="explore-inner-box">
-                    <img src="assets/images/ecosystem.png" alt="">
+                    <img class="nothover" src="assets/images/ecosystem.png" alt="">
+                    <img class="onhover" src="assets/images/orange-eco.png" alt="">
                     <h5>ECOTOURISM TRAVEL</h5>
                 </div>
             
           
                 <div class="explore-inner-box">
-                    <img src="assets/images/advanture.png" alt="">
+                    <img class="nothover" src="assets/images/advanture.png" alt="">
+                    <img class="onhover" src="assets/images/orange-advanture.png" alt="">
                     <h5>ADVENTURE TRAVEL</h5>
                 </div>
            

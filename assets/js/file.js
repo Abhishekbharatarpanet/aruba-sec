@@ -10,7 +10,7 @@ $( document ).ready(function() {
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 5,
-        margin:10,
+        margin:20,
         arrows:true,
         responsive: [
             {
@@ -35,9 +35,7 @@ $( document ).ready(function() {
                 slidesToScroll: 1
               }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
+
           ]
       });
 
