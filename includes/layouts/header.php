@@ -53,78 +53,78 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+              <a class="nav-link <?php echo $filename == 'index.php' ? 'active' : '';  ?>" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="about.php">About Us</a>
+              <a class="nav-link <?php echo $filename == 'about.php' ? 'active' : '';  ?>" aria-current="page" href="about.php">About Us</a>
             </li>
             <li class="nav-item dropdown has-childs">
-              <a class="nav-link dropdown-toggle" href="category.php">Aruba Tours</a>
+              <a class="nav-link dropdown-toggle <?php echo $filename == 'category.php' ? 'active' : '';  ?>" href="category.php">Aruba Tours</a>
               <img class="dropdown-img" data-show="hide" src="assets/images/drop-down-arrow.png" alt>
               <ul class="dropdown-menu hovered-child">
                 <li class="dropdown-item">
-                  <a href="atv-tours.php"> Aruba ATV Tours </a>
+                  <a class="<?php echo $filename == 'atv-tours.php' ? 'active' : '';  ?>" href="atv-tours.php"> Aruba ATV Tours </a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a class="<?php echo $filename == 'utv-tours.php' ? 'active' : '';  ?>" href="utv-tours.php">
                     Aruba UTV Tours
                   </a>
                 </li>
 
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a class="<?php echo $filename == 'aruba-private-ac-jeep-tours.php' ? 'active' : '';  ?>" href="aruba-private-ac-jeep-tours.php">
                     Aruba Private AC Jeep Tours
                   </a>
                 </li>
 
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a class="<?php echo $filename == 'aruba-private-open-air-safari-jeep-tours.php' ? 'active' : '';  ?>" href="aruba-private-open-air-safari-jeep-tours.php">
                     Aruba Private Open-Air Safari Jeep Tours
                   </a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a <?php echo $filename == 'aruba-outback-safari-jeeptours.php' ? 'active' : '';  ?> href="aruba-outback-safari-jeeptours.php">
                     Aruba Outback Safari Jeep Tours
                   </a>
                 </li>
 
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a <?php echo $filename == 'aruba-catamaran-tours.php' ? 'active' : '';  ?> href="aruba-catamaran-tours.php">
                     Aruba Catamaran Tours
                   </a>
                 </li>
 
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a <?php echo $filename == 'aruba-private-catamaran-tours.php' ? 'active' : '';  ?> href="aruba-private-catamaran-tours.php">
                     Aruba Private Catamaran Tours
                   </a>
                 </li>
 
                 <li class="dropdown-item">
-                  <a href="#">
+                  <a <?php echo $filename == 'aruba-private-boats-tours.php' ? 'active' : '';  ?> href="aruba-private-boats-tours.php">
                     Aruba Boat Tours
                   </a>
                 </li>
               </ul>
             </li>
             <li class="nav-item dropdown has-childs">
-              <a class="nav-link dropdown-toggle" href="#">Aruba Rentals</a>
+              <a class="nav-link dropdown-toggle  <?php echo $filename == 'rentals.php' ? 'active' : '';  ?>" href="rentals.php">Aruba Rentals</a>
               <img class="dropdown-img" src="assets/images/drop-down-arrow.png" alt>
               <ul class="dropdown-menu hovered-child">
                 <li class="dropdown-item">
-                  <a href="#"> Aruba ATV Rentals - Single-Seater</a>
+                  <a class=" <?php echo $filename == 'aruba-atv-rentals-single-seater.php' ? 'active' : '';  ?>" href="aruba-atv-rentals-single-seater.php"> Aruba ATV Rentals - Single-Seater</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="#">Aruba ATV Rentals - Double-Seater</a>
+                  <a href="aruba-atv-rentals-double-seater.php">Aruba ATV Rentals - Double-Seater</a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="#"> Aruba UTV Rentals - Two-Seater </a>
+                  <a  class=" <?php echo $filename == 'aruba-utv-rentals-two-seater.php' ? 'active' : '';  ?>" href="aruba-utv-rentals-two-seater.php"> Aruba UTV Rentals - Two-Seater </a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="#"> Aruba UTV Rentals - Four-Seater </a>
+                  <a class=" <?php echo $filename == 'aruba-utv-rentals-four-seater.php' ? 'active' : '';  ?>"  href="aruba-utv-rentals-four-seater.php"> Aruba UTV Rentals - Four-Seater </a>
                 </li>
                 <li class="dropdown-item">
-                  <a href="#">Aruba Jet Ski Rentals</a>
+                  <a lass=" <?php echo $filename == 'aruba-jet-ski-rentals.php' ? 'active' : '';  ?>"  href="aruba-jet-ski-rentals.php">Aruba Jet Ski Rentals</a>
                 </li>
               </ul>
             </li>

@@ -1,5 +1,20 @@
 
 @media(min-width:1181px){
+    .explore-inner-box{
+        position: relative;
+    }
+    .explore-inner-box::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        border-right: 1px solid #000;
+        right: -50%;
+    }
+    .explore-inner-box:last-child::after{
+        display: none;
+    }
     .dropdown-img{
         display: none;
     }
@@ -9,6 +24,9 @@
     }
     .payments-slider .slick-next{
         right: -70px;
+    }
+    .text-align-resp{
+        text-align: end;
     }
 
     .nav-link.dropdown-toggle::after{
@@ -32,9 +50,9 @@
         max-width: 85% !important;
     }
     .home-banner{
-        background-size: 55%;
+        background-size: 65%;
         background-repeat: no-repeat;
-        background-position: 310px center;
+        background-position: 213px center;
         padding: 100px 0;
     }
     .left-shape-bg{
@@ -47,6 +65,7 @@
 }
 
 @media (min-width:993px) and (max-width: 1180px) {
+   
     .col-sm-6 , .col-sm-12{
         width: 33.3%;   
        }
@@ -56,8 +75,14 @@
        .row{
         gap: 50px 0;
        }
+       
+       
 }
 @media (min-width:575px) and (max-width: 992px) {
+    .home-banner
+    .right-navigation{
+        display: none;
+    }
     .col-sm-6 , .col-sm-12{
      width: 50%;   
     }
@@ -67,8 +92,77 @@
     .row{
         gap: 50px 0;
        }
+
+       .banner-text h1{
+        font-size: 70px;
+       }
 }
 @media (max-width: 1180px) {
+    .cate-banner{
+        background-size: cover;
+    }
+    .payments-slider .slick-prev ,.payments-slider .slick-next{
+        position: absolute;
+        
+        bottom: -50px;
+    }
+    .payments-slider .slick-prev{
+        right: 50%;
+    }
+    .payments-slider .slick-next{
+      
+        left: 50%;
+    }
+    .payment-methods{
+        padding-bottom: 50px;
+    }
+    .payments-slider{
+        padding-bottom: 50px;
+    }
+    .home-banner .row{
+        gap: 0;
+    }
+    .home-banner{
+        padding: 50px 0;
+    }
+    .home-banner .home-heading h1{
+        font-size: 70px;
+    }
+    .home-banner .home-heading p{
+        width: 100%;
+    }
+  
+    .advanture-text-box{
+        margin-top: 0;
+    }
+    .marging-manager{
+        margin-top: 0;
+    }
+    .card{
+        margin-left: 0;
+        width: 100%;
+    }
+    .right-shape-bg,
+       .left-shape-bg{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+       }
+       .about-us .row{
+        gap: 0;
+       }
+       .about-us::after{
+        display: none;
+       }
+       .about-us-left, .about-us-right{
+        padding:0;
+        margin: auto;
+        width: 90%;
+       }
+       .about-us-right{
+        padding: 32px 0;
+       }
 
     .navbar{
         overflow: hidden;
@@ -186,12 +280,19 @@
     }
     .footer_Float{
         padding: 0;
+        padding-bottom: 40px;
     }
     .row{
     gap: 50px 0px;
     }
+    .margin-top-minus{
+        gap: 0 !important;
+    }
   }
   @media (max-width: 1180px){
+    .text-align-resp{
+        text-align: center;
+    }
     .navbar-expand-lg .navbar-nav .dropdown-menu{
         position: relative;
     }
@@ -202,5 +303,8 @@
   @media (max-width:575px){
     .center-and-border{
         border: none;
+    }
+    .home-banner .right-navigation{
+        display: none;
     }
   }

@@ -2,20 +2,20 @@
 <!--  -->
 
 <section class="single-page-banner">
-    <img src="assets/images/atv-tours.png" alt="">
+    <img src="assets/images/ATV-tours.png" alt="">
 </section>
 
 <section class="tour-info">
 <div class="container">
   <div class="row">
         <div class="col-md-8 col-sm-12 left-box">
-            <p>ARUBA SINGLE SEATER ATV TOURS</p>
+            <p>ARUBA SINGLE SEATER UTV TOURS</p>
             <h5>UTV Tour in Aruba with Offroad Adventure</h5>
         </div>
         <div class="col-md-4 col-sm-12 d-flex justify-content-between">
             <div class="tour-price">
                 <p>Price:</p>
-                <h5>PER ATV $200</h5>
+                <h5>PER UTV $200</h5>
             </div>
             <div class="tour-book-btn">
                 <a href="#" class="book-btn">Book Now</a>
@@ -63,7 +63,7 @@
     <div class="container margin-manage-top">
 
         <div class="section-title text-center">
-            <h1>Know More About Our ATV Tour</h1>
+            <h1>Know More About Our UTV Tour</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis ut explicabo quia 
                 distinctio iusto exercitationem sed asperiores recusandae reiciendis.</p>
           </div>
@@ -89,22 +89,22 @@
             <div class="tab-pane fade show active" id="heading-one-pane" role="tabpanel" aria-labelledby="heading-one" tabindex="0">
 
                 <h4>Heading 01</h4>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
             </div>
             <div class="tab-pane fade" id="heading-two-pane" role="tabpanel" aria-labelledby="heading-two" tabindex="0">
                 <h4>Heading 02</h4>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
             </div>
             <div class="tab-pane fade" id="heading-three-pane" role="tabpanel" aria-labelledby="heading-three" tabindex="0">
                 <h4>Heading 03</h4>
-                  <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p></div>
+                  <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p></div>
             <div class="tab-pane fade" id="heading-four-pane" role="tabpanel" aria-labelledby="heading-four" tabindex="0">
                 <h4>Heading 04</h4>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
-                <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p></div>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
+                <p>Experience the wildlife of Aruba through an exciting UTV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p></div>
           </div>
     </div>
 </section>
@@ -194,7 +194,6 @@
     </div>
 </section>
 <!--  -->
-
   
   <?php 
 

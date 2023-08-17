@@ -33,7 +33,7 @@
                 sales@Tourstoaruba.com</a></li>
             <li><a href="#"><img src="assets/images/icons/address-book.svg" alt="">Alto Vista 116, Noord, Aruba</a></li>
             <li><a href="tel:+297 734 9001"><img src="assets/images/icons/call-receive.svg" alt="">+297 734 9001</a></li>
-            <li><a href="#"><img src="assets/images/icons/time.com.svg" alt="">Monday - Sunday: 7 am - 7 pm</a></li>
+            <li><a href="#"><img src="assets/images/icons/time.com.svg" alt="">Monday-Sunday: 7am-7pm</a></li>
             <li><a href="www.tourstoaruba.com" target="_blank"><img src="assets/images/icons/www.svg" alt="">www.tourstoaruba.com</a></li>
             <li><a href="www.tourstoaruba.com" target="_blank"><img src="assets/images/icons/www.svg" alt="">www.tourstoaruba.com</a></li>
             <li><a href="www.tourstoaruba.com" target="_blank"><img src="assets/images/icons/www.svg" alt="">www.tourstoaruba.com</a></li>
@@ -82,9 +82,9 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container margin_manager_footer">
       <div class="row align-items-center margin-top-minus">
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="d-flex align-items-center gap-3">
             <img src="assets/images/logo.png">
             <div class="text-ligh">
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-md-6 text-align-resp">
           <p ><img src="assets/images/icons/calendar.svg" alt="">Lorem Ipsum Dolor Sit Amer</p>
         </div>
         
