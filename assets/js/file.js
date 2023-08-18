@@ -43,5 +43,13 @@ $( document ).ready(function() {
       $('.payments-slider .slick-prev').html("<div class='arrows prev-arrow'><i class='fa-solid fa-arrow-left'></i></div>")
       $('.payments-slider .slick-next').html("<div class='arrows next-arrow'><i class='fa-solid fa-arrow-right'></i></div>")
       
+       
+      let has_childs = document.querySelectorAll(".has-childs ul li a");
 
+      has_childs.forEach((childs) => {
+        if (childs.classList == "active") {
+          let Perent_name = childs.parentElement.parentElement.parentElement;
+          Perent_name.classList.add("active_perents")
+        }
+      });
 });

@@ -62,7 +62,8 @@
 
     <div class="container margin-manage-top">
 
-        <div class="section-title text-center">
+      <div class="inner_manage_gap">
+      <div class="section-title text-center">
             <h1>Know More About Our ATV Tour</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis ut explicabo quia 
                 distinctio iusto exercitationem sed asperiores recusandae reiciendis.</p>
@@ -106,6 +107,7 @@
                 <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p>
                 <p>Experience the wildlife of Aruba through an exciting ATV adventure. This extreme tour is both an adventurous and exhilarating ride through the island's rugged desert and coastline. It is the best way to explore Aruba; a 4-hour ride led by an expert tour guide who will take you to.</p></div>
           </div>
+      </div>
     </div>
 </section>
 

@@ -1,5 +1,8 @@
 
 @media(min-width:1181px){
+    .navbar-nav .nav-item:last-child a{
+        padding-right: 0;
+    }
     .explore-inner-box{
         position: relative;
     }
@@ -68,6 +71,9 @@
    
     .col-sm-6 , .col-sm-12{
         width: 33.3%;   
+       }
+       .tour-info .col-md-8{
+        width: 66%;
        }
        .center-and-border{
         border-right: none;
